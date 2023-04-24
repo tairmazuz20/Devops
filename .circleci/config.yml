@@ -10,7 +10,7 @@ executors:
           username: $DOCKER_HUB_URER
           password: $DOCKER_HUB_PASSWORD
 
-jobs:
+jobs: 
   test:
     executor: my-exe
     steps:
